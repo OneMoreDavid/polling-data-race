@@ -31,3 +31,7 @@ for row in rows:
 df = pd.DataFrame(data, columns=headers)
 df.to_csv('bbc_data.csv', index=False)
 print("Data saved to bbc_data.csv")
+
+# Print the first few rows of the DataFrame to verify data
+print("First few rows of the collected data:")
+print(df.head())
