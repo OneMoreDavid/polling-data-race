@@ -1,20 +1,27 @@
 import pandas as pd
+import logging
+
+# Set up logging
+logging.basicConfig(filename='data_examination.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+
+logging.info("Starting data examination process")
 
 # Load the CSV file
-df = pd.read_csv('bbc_data.csv')
+try:
+    df = pd.read_csv('bbc_data.csv')
+    logging.info("Data loaded successfully from bbc_data.csv")
+except FileNotFoundError:
+    logging.error("Error: bbc_data.csv file not found.")
+    exit()
 
 # Print the first few rows of the DataFrame
-print("First few rows of the data:")
-print(df.head())
+logging.debug("First few rows of the data:\n%s", df.head())
 
 # Print summary statistics
-print("\nSummary statistics:")
-print(df.describe(include='all'))
+logging.debug("Summary statistics:\n%s", df.describe(include='all'))
 
 # Identify missing values
-print("\nMissing values:")
-print(df.isnull().sum())
+logging.debug("Missing values:\n%s", df.isnull().sum())
 
 # Print data types
-print("\nData types:")
-print(df.dtypes)
+logging.debug("Data types:\n%s", df.dtypes)

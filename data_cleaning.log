@@ -302,3 +302,307 @@ Index: []
        '15 - 17 Jan 20, Opinium. Sample size: 2002, funded by Observer\n15 - 17 Jan 20\nOpinium\n2,002Observer',
        '8 - 10 Jan 20, BMG. Sample size: 1508, funded by Independent\n8 - 10 Jan 20\nBMG\n1,508Independent'],
       dtype='object', length=1452)
+2024-07-01 11:35:56,366 - INFO - Starting data cleaning process
+2024-07-01 11:35:56,453 - INFO - Data loaded successfully from bbc_data.csv
+2024-07-01 11:35:56,453 - DEBUG - First few rows of the collected data:
+Empty DataFrame
+Columns: [Date, Pollster. Sample and Client
+Date
+Pollster
+SampleClient, ConservativesCON, LabourLAB, Lib DemsLD, GreenGRN, Reform UKREF, SNPSNP, Plaid CymruPC, 27 - 29 Jun 24, Deltapoll. Sample size: 1645, funded by Mail on Sunday
+27 - 29 Jun 24
+Deltapoll
+1,645Mail on Sunday, 27 - 28 Jun 24, WeThink. Sample size: 1210
+27 - 28 Jun 24
+WeThink
+1,210, 26 - 28 Jun 24, Opinium. Sample size: 2053, funded by Observer
+26 - 28 Jun 24
+Opinium
+2,053Observer, 26 - 28 Jun 24, Savanta. Sample size: 2092, funded by Sunday Telegraph
+26 - 28 Jun 24
+Savanta
+2,092Sunday Telegraph, 26 - 28 Jun 24, More in Common. Sample size: 3361
+26 - 28 Jun 24
+More in Common
+3,361, 26 - 27 Jun 24, Whitestone Insight. Sample size: 2012, funded by Mirror, Express
+26 - 27 Jun 24
+Whitestone Insight
+2,012Mirror, Express, 26 - 27 Jun 24, Techne. Sample size: 1643
+26 - 27 Jun 24
+Techne
+1,643, 26 - 27 Jun 24, Redfield and Wilton. Sample size: 5000
+26 - 27 Jun 24
+Redfield and Wilton
+5,000, 25 - 27 Jun 24, YouGov. Sample size: 4110, funded by Times
+25 - 27 Jun 24
+YouGov
+4,110Times, 25 - 26 Jun 24, PeoplePolling. Sample size: 1932, funded by GB News
+25 - 26 Jun 24
+PeoplePolling
+1,932GB News, 24 - 26 Jun 24, Deltapoll. Sample size: 2077, funded by The National
+24 - 26 Jun 24
+Deltapoll
+2,077The National, 24 - 26 Jun 24, BMG. Sample size: 1522, funded by The i
+24 - 26 Jun 24
+BMG
+1,522The i, 24 - 26 Jun 24, More in Common. Sample size: 3420, funded by News Agents
+24 - 26 Jun 24
+More in Common
+3,420News Agents, 24 - 26 Jun 24, Norstat. Sample size: 2025
+24 - 26 Jun 24
+Norstat
+2,025, 24 - 25 Jun 24, YouGov. Sample size: 1572
+24 - 25 Jun 24
+YouGov
+1,572, 21 - 25 Jun 24, Survation. Sample size: 1022, funded by Good Morning Britain
+21 - 25 Jun 24
+Survation
+1,022Good Morning Britain, 21 - 24 Jun 24, Verian. Sample size: 1047
+21 - 24 Jun 24
+Verian
+1,047, 21 - 24 Jun 24, Ipsos. Sample size: 1402
+21 - 24 Jun 24
+Ipsos
+1,402, 21 - 24 Jun 24, JL Partners. Sample size: 2005, funded by Rest is Politics
+21 - 24 Jun 24
+JL Partners
+2,005Rest is Politics, 21 - 24 Jun 24, Savanta. Sample size: 2318, funded by Telegraph
+21 - 24 Jun 24
+Savanta
+2,318Telegraph, 21 - 24 Jun 24, Deltapoll. Sample size: 1568
+21 - 24 Jun 24
+Deltapoll
+1,568, 21 - 24 Jun 24, Redfield and Wilton. Sample size: 10000
+21 - 24 Jun 24
+Redfield and Wilton
+10,000, 21 - 23 Jun 24, More in Common. Sample size: 2046
+21 - 23 Jun 24
+More in Common
+2,046, 20 - 21 Jun 24, WeThink. Sample size: 1270
+20 - 21 Jun 24
+WeThink
+1,270, 19 - 21 Jun 24, Opinium. Sample size: 2052, funded by Observer
+19 - 21 Jun 24
+Opinium
+2,052Observer, 19 - 21 Jun 24, Savanta. Sample size: 2103, funded by Sunday Telegraph
+19 - 21 Jun 24
+Savanta
+2,103Sunday Telegraph, 19 - 20 Jun 24, Whitestone Insight. Sample size: 2029, funded by Mirror, Express
+19 - 20 Jun 24
+Whitestone Insight
+2,029Mirror, Express, 19 - 20 Jun 24, YouGov. Sample size: 2047, funded by Times
+19 - 20 Jun 24
+YouGov
+2,047Times, 19 - 20 Jun 24, Techne. Sample size: 1642
+19 - 20 Jun 24
+Techne
+1,642, 19 - 20 Jun 24, Redfield and Wilton. Sample size: 2500
+19 - 20 Jun 24
+Redfield and Wilton
+2,500, 17 - 19 Jun 24, More in Common. Sample size: 2035
+17 - 19 Jun 24
+More in Common
+2,035, 17 - 19 Jun 24, Norstat. Sample size: 2059
+17 - 19 Jun 24
+Norstat
+2,059, 18 - 19 Jun 24, BMG. Sample size: 1627, funded by The i
+18 - 19 Jun 24
+BMG
+1,627The i, 18 Jun 24, PeoplePolling. Sample size: 1228, funded by GB News
+18 Jun 24
+PeoplePolling
+1,228GB News, 17 - 18 Jun 24, YouGov. Sample size: 1625
+17 - 18 Jun 24
+YouGov
+1,625, 14 - 18 Jun 24, Survation. Sample size: 1008, funded by Good Morning Britain
+14 - 18 Jun 24
+Survation
+1,008Good Morning Britain, 11 - 18 Jun 24, YouGov. Sample size: 39979, funded by Sky News
+11 - 18 Jun 24
+YouGov
+39,979Sky News, 14 - 17 Jun 24, Verian. Sample size: 1034
+14 - 17 Jun 24
+Verian
+1,034, 14 - 17 Jun 24, Focaldata. Sample size: 2604
+14 - 17 Jun 24
+Focaldata
+2,604, 14 - 17 Jun 24, Deltapoll. Sample size: 1383
+14 - 17 Jun 24
+Deltapoll
+1,383, 14 - 17 Jun 24, Redfield and Wilton. Sample size: 10000
+14 - 17 Jun 24
+Redfield and Wilton
+10,000, 14 - 16 Jun 24, Savanta. Sample size: 2046, funded by Telegraph
+14 - 16 Jun 24
+Savanta
+2,046Telegraph, 14 - 16 Jun 24, More in Common. Sample size: 2369
+14 - 16 Jun 24
+More in Common
+2,369, 14 - 16 Jun 24, JL Partners. Sample size: 2083, funded by Rest is Politics
+14 - 16 Jun 24
+JL Partners
+2,083Rest is Politics, 12 - 14 Jun 24, Savanta. Sample size: 2045, funded by Sunday Telegraph
+12 - 14 Jun 24
+Savanta
+2,045Sunday Telegraph, 12 - 14 Jun 24, Opinium. Sample size: 2059, funded by Observer
+12 - 14 Jun 24
+Opinium
+2,059Observer, 12 - 13 Jun 24, Whitestone Insight. Sample size: 2014, funded by Mirror, Express
+12 - 13 Jun 24
+Whitestone Insight
+2,014Mirror, Express, 12 - 13 Jun 24, Techne. Sample size: 1636
+12 - 13 Jun 24
+Techne
+1,636, 12 - 13 Jun 24, YouGov. Sample size: 2211, funded by Times
+12 - 13 Jun 24
+YouGov
+2,211Times, 12 - 13 Jun 24, Redfield and Wilton. Sample size: 1500
+12 - 13 Jun 24
+Redfield and Wilton
+1,500, 12 - 13 Jun 24, WeThink. Sample size: 1297
+12 - 13 Jun 24
+WeThink
+1,297, 31 May - 13 Jun 24, Survation. Sample size: 22149, funded by Best for Britain
+31 May - 13 Jun 24
+Survation
+22,149Best for Britain, 12 Jun 24, PeoplePolling. Sample size: 1234, funded by GB News
+12 Jun 24
+PeoplePolling
+1,234GB News, 11 - 12 Jun 24, BMG. Sample size: 1546, funded by The i
+11 - 12 Jun 24
+BMG
+1,546The i, 11 - 12 Jun 24, More in Common. Sample size: 2037, funded by News Agents
+11 - 12 Jun 24
+More in Common
+2,037News Agents, 10 - 12 Jun 24, Norstat. Sample size: 1017
+10 - 12 Jun 24
+Norstat
+1,017, 7 - 12 Jun 24, Ipsos. Sample size: 19689
+7 - 12 Jun 24
+Ipsos
+19,689, 10 - 11 Jun 24, YouGov. Sample size: 1611, funded by Sky News
+10 - 11 Jun 24
+YouGov
+1,611Sky News, 7 - 11 Jun 24, Focaldata. Sample size: 3124
+7 - 11 Jun 24
+Focaldata
+3,124, 5 - 11 Jun 24, Survation. Sample size: 1076, funded by Good Morning Britain
+5 - 11 Jun 24
+Survation
+1,076Good Morning Britain, 7 - 10 Jun 24, Verian. Sample size: 1305
+7 - 10 Jun 24
+Verian
+1,305, 7 - 10 Jun 24, Redfield and Wilton. Sample size: 10000
+7 - 10 Jun 24
+Redfield and Wilton
+10,000, 7 - 9 Jun 24, Savanta. Sample size: 2219, funded by Telegraph
+7 - 9 Jun 24
+Savanta
+2,219Telegraph, 7 - 9 Jun 24, JL Partners. Sample size: 2004, funded by Rest is Politics
+7 - 9 Jun 24
+JL Partners
+2,004Rest is Politics, 6 - 8 Jun 24, Deltapoll. Sample size: 2010, funded by Mail on Sunday
+6 - 8 Jun 24
+Deltapoll
+2,010Mail on Sunday, 6 - 7 Jun 24, WeThink. Sample size: 1198
+6 - 7 Jun 24
+WeThink
+1,198, 5 - 7 Jun 24, Opinium. Sample size: 2166, funded by Observer
+5 - 7 Jun 24
+Opinium
+2,166Observer, 5 - 7 Jun 24, Savanta. Sample size: 2095, funded by Telegraph
+5 - 7 Jun 24
+Savanta
+2,095Telegraph, 5 - 7 Jun 24, More in Common. Sample size: 2618
+5 - 7 Jun 24
+More in Common
+2,618, 5 - 6 Jun 24, Whitestone Insight. Sample size: 2001, funded by Mirror, Express
+5 - 6 Jun 24
+Whitestone Insight
+2,001Mirror, Express, 5 - 6 Jun 24, YouGov. Sample size: 1650
+5 - 6 Jun 24
+YouGov
+1,650, 5 - 6 Jun 24, Techne. Sample size: 1645
+5 - 6 Jun 24
+Techne
+1,645, 5 - 6 Jun 24, Survation. Sample size: 1056
+5 - 6 Jun 24
+Survation
+1,056, 5 - 6 Jun 24, Redfield and Wilton. Sample size: 2000
+5 - 6 Jun 24
+Redfield and Wilton
+2,000, 3 - 6 Jun 24, Focaldata. Sample size: 2077
+3 - 6 Jun 24
+Focaldata
+2,077, 4 - 5 Jun 24, Norstat. Sample size: 1005
+4 - 5 Jun 24
+Norstat
+1,005, 4 - 5 Jun 24, BMG. Sample size: 1534, funded by The i
+4 - 5 Jun 24
+BMG
+1,534The i, 3 - 4 Jun 24, YouGov. Sample size: 2144, funded by Sky News
+3 - 4 Jun 24
+YouGov
+2,144Sky News, 31 May - 4 Jun 24, Ipsos. Sample size: 1014
+31 May - 4 Jun 24
+Ipsos
+1,014, 2 - 3 Jun 24, PeoplePolling. Sample size: 1674, funded by GB News
+2 - 3 Jun 24
+PeoplePolling
+1,674GB News, 1 - 3 Jun 24, More in Common. Sample size: 2055
+1 - 3 Jun 24
+More in Common
+2,055, 31 May - 3 Jun 24, Deltapoll. Sample size: 1077
+31 May - 3 Jun 24
+Deltapoll
+1,077, 30 May - 3 Jun 24, Verian. Sample size: 1405
+30 May - 3 Jun 24
+Verian
+1,405, 31 May - 2 Jun 24, Savanta. Sample size: 2209, funded by Telegraph
+31 May - 2 Jun 24
+Savanta
+2,209Telegraph, 31 May - 2 Jun 24, JL Partners. Sample size: 2013, funded by Rest is Politics
+31 May - 2 Jun 24
+JL Partners
+2,013Rest is Politics, 31 May - 2 Jun 24, Redfield and Wilton. Sample size: 10000
+31 May - 2 Jun 24
+Redfield and Wilton
+10,000, 22 May - 2 Jun 24, Survation. Sample size: 30044, funded by Best for Britain
+22 May - 2 Jun 24
+Survation
+30,044Best for Britain, 30 - 31 May 24, Focaldata. Sample size: 2626
+30 - 31 May 24
+Focaldata
+2,626, 30 - 31 May 24, WeThink. Sample size: 1328
+30 - 31 May 24
+WeThink
+1,328, 29 - 31 May 24, Opinium. Sample size: 2184, funded by Observer
+29 - 31 May 24
+Opinium
+2,184Observer, 29 - 30 May 24, Whitestone Insight. Sample size: 2005, funded by Mirror, Express
+29 - 30 May 24
+Whitestone Insight
+2,005Mirror, Express, 29 - 30 May 24, Techne. Sample size: 1630
+29 - 30 May 24
+Techne
+1,630, ...]
+Index: []
+
+[0 rows x 1452 columns]
+2024-07-01 11:35:56,454 - ERROR - Error: 'Date' column not found in the data. Available columns: Index(['Date, Pollster. Sample and Client\nDate\nPollster\nSampleClient',
+       'ConservativesCON', 'LabourLAB', 'Lib DemsLD', 'GreenGRN',
+       'Reform UKREF', 'SNPSNP', 'Plaid CymruPC',
+       '27 - 29 Jun 24, Deltapoll. Sample size: 1645, funded by Mail on Sunday\n27 - 29 Jun 24\nDeltapoll\n1,645Mail on Sunday',
+       '27 - 28 Jun 24, WeThink. Sample size: 1210\n27 - 28 Jun 24\nWeThink\n1,210',
+       ...
+       '12 - 14 Feb 20, Opinium. Sample size: 2007, funded by Observer\n12 - 14 Feb 20\nOpinium\n2,007Observer',
+       '12 Feb 20, Redfield and Wilton. Sample size: 1216\n12 Feb 20\nRedfield and Wilton\n1,216',
+       '9 - 10 Feb 20, YouGov. Sample size: 1694, funded by Times\n9 - 10 Feb 20\nYouGov\n1,694Times',
+       '4 - 7 Feb 20, BMG. Sample size: 1503, funded by Independent\n4 - 7 Feb 20\nBMG\n1,503Independent',
+       '31 Jan - 3 Feb 20, Ipsos. Sample size: 1001\n31 Jan - 3 Feb 20\nIpsos\n1,001',
+       '31 Jan - 2 Feb 20, YouGov. Sample size: 1575, funded by Times\n31 Jan - 2 Feb 20\nYouGov\n1,575Times',
+       '30 - 31 Jan 20, Survation. Sample size: 1015\n30 - 31 Jan 20\nSurvation\n1,015',
+       '24 - 26 Jan 20, YouGov. Sample size: 1628, funded by Times\n24 - 26 Jan 20\nYouGov\n1,628Times',
+       '15 - 17 Jan 20, Opinium. Sample size: 2002, funded by Observer\n15 - 17 Jan 20\nOpinium\n2,002Observer',
+       '8 - 10 Jan 20, BMG. Sample size: 1508, funded by Independent\n8 - 10 Jan 20\nBMG\n1,508Independent'],
+      dtype='object', length=1452)
