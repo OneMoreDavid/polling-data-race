@@ -14,6 +14,7 @@ table = soup.find('table')  # Adjust this to the correct table if there are mult
 
 # Extract headers
 headers = [header.text.strip() for header in table.find_all('th')]
+print("Headers:", headers)  # Debug print
 
 # Extract rows
 rows = table.find_all('tr')[1:]  # Skip the header row
